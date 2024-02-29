@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+.form-container {
+    background-color: #f4f4f4;
+    padding: 16px;
+    width: 30%;
+    border-radius: 2px;
+}
+
+.form-content {
+    display: flex;
+    gap: 8px;
+}
+
+.video-url-input {
+    flex-grow: 1;
+}
